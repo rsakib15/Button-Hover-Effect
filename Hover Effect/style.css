@@ -1,0 +1,343 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.wrapper{
+  width: 100%;
+}
+header{
+  background: #19232D;
+  color: #fff;
+  padding: 30px;
+  border-bottom: 4px solid #FFD012;
+  width: 100%;
+}
+.flat_button{
+  width:100%;
+  height: auto;
+}
+
+.flat_button{
+  padding: 50px;
+}
+.group1,.group2,.group3,.group4{
+  border-bottom: 2px solid #ededed;
+}
+
+.header_bottom{
+  text-align: center;
+  color: #efefef;
+  background-color: #129166;
+  width: 100%;
+  padding: 30px;
+  border-bottom: 3px solid #01a156;
+}
+
+
+.clear{
+  clear: both;
+}
+
+
+
+
+.button{
+    padding: 12px 17px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin: 25px;
+    display: inline-block;
+    cursor: pointer;
+	  -webkit-transition: all ease 0.3s;
+	  -moz-transition: all ease 0.3s;
+	  transition: all ease 0.3s;
+}
+.blue{
+  color: #3071A9;
+  background: #FFF;
+  border: 3px solid #3071A9;
+  box-shadow: inset 0 0 0 0 #3071A9;
+}
+
+
+.black{
+  color: #000;
+  background: #FFF;
+  border: 3px solid #000;
+  box-shadow: inset 0 0 0 0 #000;
+}
+
+.brown{
+  color: #9D8854;
+  background: #fff;
+  border: 3px solid #9D8854;
+  box-shadow: inset 0 0 0 0 #9D8854;
+}
+.green{
+  color: #3AB83A;
+  background: #fff;
+  border: 3px solid #3AB83A;
+  box-shadow: inset 0 0 0 0 #3AB83A;
+}
+
+.yellow{
+  color: #EC9D2E;
+  background: #fff;
+  border: 3px solid #EC9D2E;
+  box-shadow: inset 0 0 0 0 #EC9D2E;
+}
+.red{
+  color: #DD2924;
+  background: #fff;
+  border: 3px solid #DD2924;
+  box-shadow: inset 0 0 0 0 #DD2924;
+}
+.gray{
+  color: #AAAAAA;
+  background: #fff;
+  border: 3px solid #AAAAAA;
+  box-shadow: inset 0 0 0 0 #AAAAAA;
+}
+
+.orange{
+  color: #F56B00;
+  background: #fff;
+  border: 3px solid #F56B00;
+  box-shadow: inset 0 0 0 0 #F56B00;
+}
+
+.violet{
+  color: #8B57DA;
+  background: #fff;
+  border: 3px solid #8B57DA;
+  box-shadow: inset 0 0 0 0 #8B57DA;
+}
+
+.purple{
+  color: #F63756;
+  background: #fff;
+  border: 3px solid #F63756;
+  box-shadow: inset 0 0 0 0 #F63756;
+}
+
+
+.light_green{
+  color: #92D141;
+  background: #fff;
+  border: 3px solid #92D141;
+  box-shadow: inset 0 0 0 0 #92D141;
+}
+
+.light_blue{
+  color: #14B0E9;
+  background: #fff;
+  border: 3px solid #14B0E9;
+  box-shadow: inset 0 0 0 0 #14B0E9;
+}
+
+.light_violet{
+  color: #C551D5;
+  background: #fff;
+  border: 3px solid #C551D5;
+  box-shadow: inset 0 0 0 0 #C551D5;
+}
+
+.cyan{
+  color: #129166;
+  background: #fff;
+  border: 3px solid #129166;
+  box-shadow: inset 0 0 0 0 #129166;
+}
+
+
+
+.blue:hover {
+    box-shadow: inset 0 100px 0 0 #3071A9;
+    color: #FFF;
+}
+.black:hover {
+    box-shadow: inset 0 100px 0 0 #000;
+    color: #FFF;
+}
+.brown:hover {
+    box-shadow: inset 0 100px 0 0 #9D8854;
+    color: #FFF;
+}
+.green:hover{
+    box-shadow: inset 0 100px 0 0 #3AB83A;
+    color: #FFF;
+}
+
+.yellow:hover{
+    box-shadow: inset 0 100px 0 0 #EC9D2E;
+    color: #FFF;
+}
+.red:hover{
+    box-shadow: inset 0 100px 0 0 #DD2924;
+    color: #FFF;
+}
+.gray:hover{
+    box-shadow: inset 0 100px 0 0 #AAAAAA;
+    color: #FFF;
+}
+.orange:hover{
+    box-shadow: inset 0 100px 0 0 #F56B00;
+    color: #FFF;
+}
+.violet:hover{
+    box-shadow: inset 0 100px 0 0 #8B57DA;
+    color: #FFF;
+}
+.purple:hover{
+    box-shadow: inset 0 100px 0 0 #F63756;
+    color: #FFF;
+}
+.light_green:hover{
+    box-shadow: inset 0 100px 0 0 #92D141;
+    color: #FFF;
+}
+.light_blue:hover{
+    box-shadow: inset 0 100px 0 0 #14B0E9;
+    color: #FFF;
+}
+.light_violet:hover{
+    box-shadow: inset 0 100px 0 0 #C551D5;
+    color: #FFF;
+}
+.cyan:hover{
+    box-shadow: inset 0 100px 0 0 #129166;
+    color: #FFF;
+}
+
+
+.group2>.blue:hover {
+    box-shadow: inset 120px 0 0 0  #3071A9;
+    color: #FFF;
+}
+.group2>.black:hover {
+    box-shadow: inset 120px 0 0 0  #000;
+    color: #FFF;
+}
+.group2>.brown:hover {
+    box-shadow: inset 120px 0 0 0  #9D8854;
+    color: #FFF;
+}
+.group2>.green:hover{
+    box-shadow: inset 120px 0 0 0  #3AB83A;
+    color: #FFF;
+}
+
+.group2>.yellow:hover{
+    box-shadow: inset 120px 0 0 0  #EC9D2E;
+    color: #FFF;
+}
+.group2>.red:hover{
+    box-shadow: inset 120px 0 0 0 #DD2924;
+    color: #FFF;
+}
+.group2>.gray:hover{
+    box-shadow: inset 120px 0 0 0 #AAAAAA;
+    color: #FFF;
+}
+.group2>.orange:hover{
+    box-shadow: inset 120px 0 0 0 #F56B00;
+    color: #FFF;
+}
+.group2>.violet:hover{
+    box-shadow: inset 120px 0 0 0  #8B57DA;
+    color: #FFF;
+}
+.group2>.purple:hover{
+    box-shadow: inset 120px 0 0 0  #F63756;
+    color: #FFF;
+}
+.group2>.light_green:hover{
+    box-shadow: inset 120px 0 0 0  #92D141;
+    color: #FFF;
+}
+.group2>.light_blue:hover{
+    box-shadow: inset 120px 0 0 0  #14B0E9;
+    color: #FFF;
+}
+.group2>.light_violet:hover{
+    box-shadow: inset 120px 0 0 0  #C551D5;
+    color: #FFF;
+}
+.group2>.cyan:hover{
+    box-shadow: inset 120px 0 0 0  #129166 b;
+    color: #FFF;
+}
+
+
+
+
+/*Button 3 Design*/
+
+
+
+.box{
+  background: #2db34a;
+  border-radius: 6px;
+  padding: 15px 20px;
+  cursor: pointer;
+  text-align: center;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  display: inline-block;
+}
+.box:hover {
+  background: #ff7b29;
+}
+
+
+
+
+
+
+
+
+.box1 {
+  background: #2db34a;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+  transition-property: background border-radius;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  width: 95px;
+}
+.box1:hover {
+  background: #ff7b29;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+.box{
+  border: 0;
+  background: #0087cc;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #006599;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 12px 20px;
+  display: inline-block;
+  transition: all .1s linear;
+}
+.box2:active {
+  box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}

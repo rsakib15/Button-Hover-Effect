@@ -1,0 +1,412 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.wrapper{
+  width: 100%;
+}
+header{
+  background: #19232D;
+  color: #fff;
+  padding: 30px;
+  border-bottom: 4px solid #FFD012;
+  width: 100%;
+}
+
+.clear{
+  clear: both;
+}
+.group1,.group2,.group3,.group4{
+  border-bottom: 2px solid #ededed;
+}
+
+.header_bottom{
+  text-align: center;
+  color: #efefef;
+  background-color: #129166;
+  width: 100%;
+  padding: 30px;
+  border-bottom: 3px solid #01a156;
+}
+
+.flat_button{
+  width:100%;
+  height: auto;
+}
+
+.flat_button{
+  padding: 50px;
+}
+
+.button{
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 15px 20px;
+  text-align: center;
+  border: 0;
+  transition: all 0.3s linear;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 0 2px #fff;
+  margin: 20px;
+}
+
+.button2{
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 15px 20px;
+  text-align: center;
+  border: 0;
+  border-radius: 5px;
+  transition: all 0.3s linear;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 0 2px #fff;
+  margin: 20px;
+}
+
+.button3{
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 15px 20px;
+  text-align: center;
+  border: 0;
+  border-radius: 20px;
+  transition: all 0.3s linear;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 0 2px #fff;
+  margin: 20px;
+}
+
+.button4{
+  background: #428BCA;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 15px 20px;
+  text-align: center;
+  border: 0;
+  transition: all 0.3s linear;
+  text-decoration: none;
+  text-transform: uppercase;
+  opacity: 1;
+  cursor: pointer;
+  display: inline-block;
+  margin: 20px;
+}
+
+.button5:hover{
+  background: #CF4647;
+}
+
+
+
+.button5{
+  background: #428BCA;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 15px 20px;
+  text-align: center;
+  border: 0;
+  transition: all 0.3s linear;
+  text-decoration: none;
+  text-transform: uppercase;
+  opacity: 1;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.button5:hover{
+  background: #CF4647;
+}
+
+
+
+
+.button6{
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 15px 20px;
+  text-align: center;
+  border: 0;
+  transition: all 0.3s linear;
+  text-decoration: none;
+  text-transform: uppercase;
+  opacity: 1;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+
+.button6:hover{
+  opacity: 0.75;
+}
+
+
+
+.blue{
+  background: #428BCA;
+  color: #fff;
+}
+.black{
+  background: #20241e;
+  color: #fff;
+}
+.brown{
+  background: #B1995F;
+  color: #fff;
+}
+.green{
+  background: #5CB85C;
+  color: #fff;
+}
+.yellow{
+  background: #F0AD4E;
+  color: #fff;
+}
+.red{
+  background: #D9534F;
+  color: #fff;
+}
+.gray{
+  background: #bbb;
+  color: #fff;
+}
+.orange{
+  background: #F58732;
+  color: #fff;
+}
+.violet{
+  background: #9E73DF;
+  color: #fff;
+}
+.purple{
+  background: #F75972;
+  color: #fff;
+}
+.light_green{
+  background: #A3D365;
+  color: #fff;
+}
+.light_blue{
+  background: #51BEE5;
+  color: #fff;
+}
+.light_violet{
+  background: #C870D4;
+  color: #fff;
+}
+.cyan{
+  background: #0bad8d;
+  color: #fff;
+}
+
+.blue:hover{
+  background: #3071A9;
+}
+.black:hover{
+  background: #000;
+}
+.brown:hover{
+  background: #9D8854;
+}
+.green:hover{
+  background: #3ab83a;
+}
+.yellow:hover{
+  background: #ec9d2e;
+}
+.red:hover{
+  background: #dd2924;
+}
+.gray:hover{
+  background: #aaa;
+}
+.orange:hover{
+  background: #f56b00;
+}
+.violet:hover{
+  background: #8b57da;
+}
+.purple:hover{
+  background: #f63756;
+}
+.light_green:hover{
+  background: #92d141;
+}
+.light_blue:hover{
+  background: #14b0e9;
+}
+.light_violet:hover{
+  background: #c551d5;
+}
+.cyan:hover{
+  background: #129166;
+}
+
+
+
+
+.style_blue{
+  border: 1px solid #3071A9;
+}
+.style_blue:hover{
+  background: #3071A9;
+  color: #fff;
+}
+
+.style_black{
+  border: 1px solid #000;
+}
+.style_black:hover{
+  background: #000;
+  color: #fff;
+}
+
+.style_brown{
+  border: 1px solid #9D8854;
+}
+.style_brown:hover{
+  background: #9D8854;
+  color: #fff;
+}
+
+.style_green{
+  border: 1px solid #3AB83A;
+}
+.style_green:hover{
+  background: #3AB83A;
+  color: #fff;
+}
+.style_yellow{
+  border: 1px solid #EC9D2E;
+}
+.style_yellow:hover{
+  background: #EC9D2E;
+  color: #fff;
+}
+.style_red{
+  border: 1px solid #DD2924;
+}
+.style_red:hover{
+  background: #DD2924;
+  color: #fff;
+}
+.style_gray{
+  border: 1px solid #AAAAAA;
+}
+.style_gray:hover{
+  background: #AAAAAA;
+  color: #fff;
+}
+
+.style_orange{
+  border: 1px solid #EC9D2E;
+}
+.style_orange:hover{
+  background: #EC9D2E;
+  color: #fff;
+}
+
+.style_violet{
+  border: 1px solid #8B57DA;
+}
+.style_violet:hover{
+  background: #8B57DA;
+  color: #fff;
+}
+
+.style_purple{
+  border: 1px solid #F63756;
+}
+.style_purple:hover{
+  background: #F63756;
+  color: #fff;
+}
+.style_light_green{
+  border: 1px solid #92D141;
+}
+.style_light_green:hover{
+  background: #92D141;
+  color: #fff;
+}
+.style_light_blue{
+  border: 1px solid #14B0E9;
+}
+.style_light_blue:hover{
+  background: #14B0E9;
+  color: #fff;
+}
+.style_light_violet{
+  border: 1px solid #C551D5;
+}
+.style_light_violet:hover{
+  background: #C551D5;
+  color: #fff;
+}
+.style_cyan{
+  border: 1px solid #129166;
+}
+.style_cyan:hover{
+  background: #129166;
+  color: #fff;
+}
+
+
+.blue.change:hover{
+  background: #CF494A;
+}
+.black.change:hover{
+  background: #AAAAAA;
+}
+.brown.change:hover{
+  background: #F56B00;
+}
+.green.change:hover{
+  background: #92D141;
+}
+.yellow.change:hover{
+  background: #8B57DA;
+}
+.red.change:hover{
+  background: #14B0E9;
+}
+.gray.change:hover{
+  background: #000;
+}
+.orange.change:hover{
+  background: #F63756;
+}
+.violet.change:hover{
+  background: #129166;
+}
+.purple.change:hover{
+  background: #9D8854;
+}
+
+.light_green.change:hover{
+  background: #3071A9;
+}
+.light_blue.change:hover{
+  background: #DD2924;
+}
+.light_violet.change:hover{
+  background: #8B57DA;
+}
+.cyan.change:hover{
+  background: #9D8854;
+}
